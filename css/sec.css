@@ -1,0 +1,131 @@
+body .picture {
+  background-image: url("../image/aq/banner.png");
+  padding: 0;
+}
+body .picture .search {
+  margin: auto;
+  padding-top: 200px;
+  text-align: center;
+}
+body .picture .search input {
+  width: 25%;
+  height: 40px;
+  border-radius: 5px;
+  padding-left: 12px;
+}
+body .picture .search input:focus {
+  width: 35%;
+  transition: width 1s;
+}
+body .hot_box_out {
+  margin: 60px 18.75%;
+  background-color: #FFFFFF;
+  border: #717171 1px solid;
+  padding: 0 30px 30px;
+}
+body .hot_box_out .hot_box_ {
+  height: 100%;
+  overflow: hidden;
+}
+body .hot_box_out .hot_box_ ._3 {
+  width: 60%;
+  height: 100%;
+  padding-right: 20px;
+  float: left;
+}
+body .hot_box_out .hot_box_ ._3 .h_ {
+  padding: 30px 0;
+  width: 100%;
+  border-bottom: #717171 solid 1px;
+}
+body .hot_box_out .hot_box_ ._3 .h_ span {
+  font-size: 20px;
+  padding-left: 20px;
+  font-weight: bold;
+}
+body .hot_box_out .hot_box_ ._3 .hot {
+  margin: 25px 0;
+}
+body .hot_box_out .hot_box_ ._3 .hot .numb1 {
+  background-color: red;
+  color: #FFFFFF;
+  font-size: 15px;
+  text-align: center;
+  width: 20px;
+  float: left;
+}
+body .hot_box_out .hot_box_ ._3 .hot .numb2 {
+  background-color: #F47A00;
+  color: #FFFFFF;
+  font-size: 15px;
+  text-align: center;
+  width: 20px;
+  float: left;
+}
+body .hot_box_out .hot_box_ ._3 .hot .numb3 {
+  background-color: #FFCC50;
+  color: #FFFFFF;
+  font-size: 15px;
+  text-align: center;
+  width: 20px;
+  float: left;
+}
+body .hot_box_out .hot_box_ ._3 .hot .numb {
+  background-color: #C2C2C2;
+  color: #FFFFFF;
+  font-size: 15px;
+  text-align: center;
+  width: 20px;
+  float: left;
+}
+body .hot_box_out .hot_box_ ._3 .hot a:link {
+  font-size: 15px;
+  padding-left: 20px;
+  letter-spacing: 4px;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+}
+body .hot_box_out .hot_box_ ._2 {
+  width: 40%;
+  height: 100%;
+  padding-left: 10px;
+  padding-right: 10px;
+  overflow: hidden;
+  float: left;
+}
+body .hot_box_out .hot_box_ ._2 .h_ {
+  padding: 30px 0;
+  width: 100%;
+  border-bottom: #717171 solid 1px;
+}
+body .hot_box_out .hot_box_ ._2 .h_ span {
+  font-size: 20px;
+  padding-left: 20px;
+  font-weight: bold;
+}
+body .hot_box_out .hot_box_ ._2 .__h {
+  font-size: 15px;
+  padding-left: 20px;
+  letter-spacing: 4px;
+  font-weight: bold;
+  color: black;
+  text-decoration: none;
+  margin: 25px 0;
+}
+body .hot_box_out .hot_box_ ._2 .clear {
+  clear: both;
+}
+body .hot_box_out .hot_box_ ._2 a:link {
+  font-size: 15px;
+  padding: 10px 20px;
+  letter-spacing: 4px;
+  color: black;
+  text-decoration: none;
+  float: left;
+}
+body .hot_box_out .hot_box_ ._2 a:hover {
+  color: #4136F2;
+  transition: 1s;
+}
+/*# sourceMappingURL=sec.css.map */

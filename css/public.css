@@ -1,0 +1,73 @@
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+body {
+  min-width: 992px;
+}
+body .picture {
+  height: 500px;
+  background-color: #333333;
+  padding: 174px 500px 175px 13.54166667%;
+}
+body .picture .head {
+  letter-spacing: 9px;
+  color: #FFFFFF;
+  font-size: 33px;
+}
+body .picture .underline {
+  width: 20%;
+  border-bottom: 4px solid;
+  padding: 17px 0;
+  border-color: #4136F2;
+}
+body .picture article {
+  font-size: 14px;
+  line-height: 24px;
+  color: #FFFFFF;
+  padding: 37px 0;
+  letter-spacing: 7px;
+}
+body .box {
+  min-height: 220px;
+  text-align: center;
+  padding-bottom: 121px;
+  padding-top: 121px;
+}
+body .box .head {
+  text-align: center;
+  margin-top: 3%;
+  font-size: 32px;
+}
+body .box .vio {
+  padding: 0 486px;
+}
+body .box .vio .underline {
+  width: 7.14285714%;
+  min-width: 30px;
+  margin: auto;
+  padding: 13px 0;
+  border-bottom: 4px solid;
+  border-color: #333333;
+}
+body .box .des {
+  font-size: 14px;
+  margin-top: 24px;
+  margin-bottom: 101px;
+}
+body .box .more {
+  width: 15.625%;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  margin: auto;
+  margin-top: 121px;
+  border: #4136F2 2px solid;
+  border-radius: 40px;
+}
+body .box .more a {
+  font-size: 24px;
+  color: #4136F2;
+  text-decoration: none;
+}
+/*# sourceMappingURL=public.css.map */

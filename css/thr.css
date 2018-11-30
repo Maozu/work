@@ -1,0 +1,164 @@
+.dw {
+  background-color: #F3F3F3;
+}
+.picture {
+  background-image: url("../image/product/banner.png");
+}
+.box .hh {
+  width: 60%;
+  text-align: center;
+  margin: 0 20%;
+  letter-spacing: 7px;
+}
+.clear {
+  clear: both;
+}
+body .bur {
+  height: 1203px;
+  background-image: url("../image/product/_1bur.png");
+  background-size: cover;
+  color: #FFFFFF;
+}
+body .bur .vio .underline {
+  border-color: #FFFFFF;
+}
+body .bur .more {
+  border: #FFFFFF 2px solid;
+}
+body .bur .more a {
+  color: #FFFFFF;
+}
+body .bur .tututu {
+  display: flex;
+  justify-content: center;
+  /*水平居中*/
+  align-items: center;
+  /*垂直居中*/
+}
+body .bur .tututu .pic {
+  height: 570px;
+  width: 390px;
+  float: left;
+  background-color: #FFFFFF;
+  margin: 0 40px;
+  display: inline-block;
+}
+body .bur .tututu .pic .peo {
+  color: black;
+  text-align: left;
+  padding: 9%;
+}
+body .bur .tututu .pic .peo .name {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 6px;
+}
+body .bur .tututu .pic .peo .under_name {
+  border-bottom: #4136F2 1.5px solid;
+  width: 35%;
+  padding: 6px;
+}
+body .bur .tututu .pic .peo .art_name {
+  font-size: 13px;
+  padding: 22px 6px;
+  line-height: 35px;
+}
+body .jjj .tututu {
+  display: flex;
+  justify-content: center;
+  /*水平居中*/
+  align-items: center;
+  /*垂直居中*/
+}
+body .jjj .tututu .pic {
+  height: 380px;
+  width: 230px;
+  float: left;
+  background-color: #FFFFFF;
+  margin: 0 40px;
+  display: inline-block;
+}
+body .jjj .tututu .pic .peo {
+  color: black;
+  text-align: center;
+  padding: 9%;
+}
+body .jjj .tututu .pic .peo .name {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 27px 6px 6px 6px;
+}
+body .jjj .tututu .pic .peo .art_name {
+  text-align: left;
+  font-size: 13px;
+  padding: 22px 6px;
+  line-height: 35px;
+}
+body .dw .tututu {
+  display: flex;
+  height: 390px;
+  justify-content: center;
+  /*水平居中*/
+  align-items: center;
+  /*垂直居中*/
+}
+body .dw .tututu .pic {
+  height: 390px;
+  width: 300px;
+  float: left;
+  background-color: #FFFFFF;
+  margin: 0 40px;
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+}
+body .dw .tututu .pic .change {
+  position: absolute;
+  background-color: #4136F2;
+  color: #FFFFFF;
+  text-align: center;
+  padding: 9%;
+  top: 100%;
+  height: 100%;
+}
+body .dw .tututu .pic .change .name {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 6px;
+}
+body .dw .tututu .pic .change .under_name {
+  border-bottom: #4136F2 1.5px solid;
+  width: 35%;
+  padding: 6px;
+}
+body .dw .tututu .pic .change .art_name {
+  font-size: 13px;
+  padding: 22px 6px;
+  line-height: 35px;
+}
+body .dw .tututu .pic:hover .change {
+  top: 0;
+  transition: top 1s;
+}
+body .dw .tututu .pic .peo {
+  color: black;
+  text-align: center;
+  padding: 9%;
+  transition: 5s;
+}
+body .dw .tututu .pic .peo .name {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 6px;
+}
+body .dw .tututu .pic .peo .under_name {
+  border-bottom: #4136F2 1.5px solid;
+  width: 35%;
+  padding: 6px;
+}
+body .dw .tututu .pic .peo .art_name {
+  font-size: 13px;
+  padding: 22px 6px;
+  line-height: 35px;
+}
+/*# sourceMappingURL=thr.css.map */

@@ -1,0 +1,56 @@
+.wuwuwu .win {
+  width: 70%;
+  height: 600px;
+  margin: auto;
+}
+.wuwuwu .win .slick-track {
+  height: 570px;
+}
+.wuwuwu .win .tututu .slick-prev:before,
+.wuwuwu .win .tututu .slick-next:before {
+  color: transparent;
+  font-size: 90px;
+}
+.wuwuwu .win .tututu .slick-prev {
+  background-image: url("../image/learn/leadtr.png");
+  width: 37px;
+  height: 37px;
+  z-index: 999;
+}
+.wuwuwu .win .tututu .slick-next {
+  background-image: url("../image/learn/leadrtr.png");
+  width: 37px;
+  height: 37px;
+  z-index: 999;
+}
+.wuwuwu .win .tututu .pic {
+  height: 550px;
+  width: 8% !important;
+  background-color: #FFFFFF;
+  margin: 0 1%;
+  box-shadow: 2px 2px 23px #888888;
+}
+.wuwuwu .win .tututu .pic img {
+  width: 100%;
+}
+.wuwuwu .win .tututu .pic .peo {
+  color: black;
+  text-align: left;
+  padding: 9%;
+}
+.wuwuwu .win .tututu .pic .peo .name {
+  font-size: 16px;
+  font-weight: bold;
+  padding: 1%;
+}
+.wuwuwu .win .tututu .pic .peo .under_name {
+  border-bottom: #4136F2 1.5px solid;
+  width: 35%;
+  padding: 1%;
+}
+.wuwuwu .win .tututu .pic .peo .art_name {
+  font-size: 13px;
+  padding: 2% 1%;
+  line-height: 35px;
+}
+/*# sourceMappingURL=siber.css.map */

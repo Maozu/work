@@ -1,0 +1,547 @@
+.picture {
+  background-image: url("../image/learn/banner.png");
+}
+.hh {
+  width: 60%;
+  text-align: left;
+  margin: 0 20%;
+  letter-spacing: 7px;
+}
+.box {
+  background-color: #FFFFFF;
+}
+.dw {
+  background-color: #F3F3F3;
+}
+.clear {
+  clear: both;
+}
+.pro {
+  width: 80%;
+  margin: auto;
+}
+.pro .word {
+  text-align: left;
+  overflow: hidden;
+}
+.pro .word .peo {
+  padding: 9%;
+}
+.pro .word .peo .name {
+  font-size: 15px;
+  font-weight: bold;
+}
+.pro .word .peo .under_name {
+  border-bottom: #333333 2.5px solid;
+  margin: 7px 0;
+  width: 35%;
+}
+.pro .word .peo .art_name {
+  font-size: 13px;
+}
+.pro .con {
+  position: relative;
+  width: 14.28571429%;
+  height: 0;
+  padding-bottom: 28.57142857%;
+  overflow: hidden;
+  float: left;
+}
+.pro .con .word {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 50%;
+  opacity: 0;
+  transition: opacity 1s;
+  float: right;
+}
+.pro .con .img {
+  top: 0;
+  float: right;
+}
+.pro .con-r {
+  position: relative;
+  width: 14.28571429%;
+  height: 0;
+  padding-bottom: 28.57142857%;
+  overflow: hidden;
+  float: left;
+}
+.pro .con-r .word {
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  top: 0;
+  opacity: 0;
+  transition: opacity 1s;
+  float: right;
+}
+.pro .con-r .img {
+  top: 50%;
+  float: right;
+}
+.pro .img {
+  position: absolute;
+  width: 100%;
+  height: 50%;
+  overflow: hidden;
+}
+.pro .img:hover .mask {
+  top: 100%;
+}
+.pro .img:hover + .word {
+  opacity: 1;
+}
+.pro .mask {
+  position: absolute;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  transition: top 1s;
+  color: #FFFFFF;
+  font-size: 16px;
+  text-align: left;
+}
+.pro .img img {
+  width: 100%;
+  height: 100%;
+}
+.mar {
+  height: 60px;
+}
+@media screen and (min-width: 1500px) {
+  .ling {
+    margin: 0 10%;
+    height: 450px;
+  }
+  .ling ._11,
+  .ling ._22,
+  .ling ._33,
+  .ling ._44,
+  .ling ._55,
+  .ling ._66 {
+    width: 33.33333333%;
+    height: 200px;
+    float: left;
+  }
+  .ling ._11:hover .au,
+  .ling ._22:hover .au,
+  .ling ._33:hover .au,
+  .ling ._44:hover .au,
+  .ling ._55:hover .au,
+  .ling ._66:hover .au {
+    box-shadow: none;
+    border-bottom: #4136F2 solid 1.3px;
+    border-left: #4136F2 solid 1.3px;
+    transition: 1s;
+    float: left;
+  }
+  .ling ._11:hover .ju,
+  .ling ._22:hover .ju,
+  .ling ._33:hover .ju,
+  .ling ._44:hover .ju,
+  .ling ._55:hover .ju,
+  .ling ._66:hover .ju {
+    background-color: #FFFFFF;
+    float: left;
+  }
+  .ling ._11:hover .peo,
+  .ling ._22:hover .peo,
+  .ling ._33:hover .peo,
+  .ling ._44:hover .peo,
+  .ling ._55:hover .peo,
+  .ling ._66:hover .peo {
+    transform: translate(-40px, 0);
+    transition: 1s;
+    float: left;
+  }
+  .ling ._11 .num,
+  .ling ._22 .num,
+  .ling ._33 .num,
+  .ling ._44 .num,
+  .ling ._55 .num,
+  .ling ._66 .num {
+    font-weight: bold;
+    color: #4136F2;
+    font-size: 75px;
+    float: left;
+    transform: translate(75px, -129px);
+  }
+  .ling ._11 .au,
+  .ling ._22 .au,
+  .ling ._33 .au,
+  .ling ._44 .au,
+  .ling ._55 .au,
+  .ling ._66 .au {
+    width: 120px;
+    height: 120px;
+    transform: rotate(45deg) translate(43px, -6px);
+    float: left;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 90px -26px #4136F2;
+    border-radius: 15px;
+  }
+  .ling ._11 .ju,
+  .ling ._22 .ju,
+  .ling ._33 .ju,
+  .ling ._44 .ju,
+  .ling ._55 .ju,
+  .ling ._66 .ju {
+    width: 68%;
+    height: 155.1px;
+    transform: translate(-29px, 8px);
+    float: left;
+    padding-left: 70px;
+  }
+  .ling ._11 .ju .peo,
+  .ling ._22 .ju .peo,
+  .ling ._33 .ju .peo,
+  .ling ._44 .ju .peo,
+  .ling ._55 .ju .peo,
+  .ling ._66 .ju .peo {
+    text-align: left;
+    padding: 11% 9% 9%;
+  }
+  .ling ._11 .ju .peo .name,
+  .ling ._22 .ju .peo .name,
+  .ling ._33 .ju .peo .name,
+  .ling ._44 .ju .peo .name,
+  .ling ._55 .ju .peo .name,
+  .ling ._66 .ju .peo .name {
+    font-size: 15px;
+    font-weight: bolder;
+  }
+  .ling ._11 .ju .peo .under_name,
+  .ling ._22 .ju .peo .under_name,
+  .ling ._33 .ju .peo .under_name,
+  .ling ._44 .ju .peo .under_name,
+  .ling ._55 .ju .peo .under_name,
+  .ling ._66 .ju .peo .under_name {
+    border-bottom: #4136F2 2.5px solid;
+    margin: 7px 0;
+    width: 35%;
+  }
+  .ling ._11 .ju .peo .art_name,
+  .ling ._22 .ju .peo .art_name,
+  .ling ._33 .ju .peo .art_name,
+  .ling ._44 .ju .peo .art_name,
+  .ling ._55 .ju .peo .art_name,
+  .ling ._66 .ju .peo .art_name {
+    font-size: 13px;
+  }
+  .ling ._11 .ju_sh,
+  .ling ._22 .ju_sh,
+  .ling ._33 .ju_sh,
+  .ling ._44 .ju_sh,
+  .ling ._55 .ju_sh,
+  .ling ._66 .ju_sh {
+    width: 20px;
+    height: 157px;
+    position: absolute;
+    transform: translate(90px, 7px);
+    float: left;
+  }
+  .ling ._11:hover .ju_sh,
+  .ling ._22:hover .ju_sh,
+  .ling ._33:hover .ju_sh,
+  .ling ._44:hover .ju_sh,
+  .ling ._55:hover .ju_sh,
+  .ling ._66:hover .ju_sh {
+    float: left;
+    width: 18.23%;
+    border: #4136F2 3px solid;
+    transition: 2s;
+  }
+}
+@media screen and (max-width: 1500px) {
+  .ling {
+    margin: 0 10%;
+    height: 450px;
+  }
+  .ling ._11,
+  .ling ._22,
+  .ling ._33,
+  .ling ._44,
+  .ling ._55,
+  .ling ._66 {
+    width: 33.33333333%;
+    height: 200px;
+    float: left;
+  }
+  .ling ._11:hover .au,
+  .ling ._22:hover .au,
+  .ling ._33:hover .au,
+  .ling ._44:hover .au,
+  .ling ._55:hover .au,
+  .ling ._66:hover .au {
+    box-shadow: none;
+    border-bottom: #4136F2 solid 1.3px;
+    border-left: #4136F2 solid 1.3px;
+    transition: 1s;
+    float: left;
+  }
+  .ling ._11:hover .ju,
+  .ling ._22:hover .ju,
+  .ling ._33:hover .ju,
+  .ling ._44:hover .ju,
+  .ling ._55:hover .ju,
+  .ling ._66:hover .ju {
+    background-color: #FFFFFF;
+    float: left;
+  }
+  .ling ._11:hover .peo,
+  .ling ._22:hover .peo,
+  .ling ._33:hover .peo,
+  .ling ._44:hover .peo,
+  .ling ._55:hover .peo,
+  .ling ._66:hover .peo {
+    transform: translate(-40px, 0);
+    transition: 1s;
+    float: left;
+  }
+  .ling ._11 .num,
+  .ling ._22 .num,
+  .ling ._33 .num,
+  .ling ._44 .num,
+  .ling ._55 .num,
+  .ling ._66 .num {
+    font-weight: bold;
+    color: #4136F2;
+    font-size: 50px;
+    float: left;
+    transform: translate(65px, -87px);
+  }
+  .ling ._11 .au,
+  .ling ._22 .au,
+  .ling ._33 .au,
+  .ling ._44 .au,
+  .ling ._55 .au,
+  .ling ._66 .au {
+    width: 90px;
+    height: 90px;
+    transform: rotate(45deg) translate(43px, -6px);
+    float: left;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 90px -26px #4136F2;
+    border-radius: 15px;
+  }
+  .ling ._11 .ju,
+  .ling ._22 .ju,
+  .ling ._33 .ju,
+  .ling ._44 .ju,
+  .ling ._55 .ju,
+  .ling ._66 .ju {
+    width: 72%;
+    height: 112.8px;
+    transform: translate(-7px, 13px);
+    float: left;
+    padding-left: 70px;
+    overflow: hidden;
+  }
+  .ling ._11 .ju .peo,
+  .ling ._22 .ju .peo,
+  .ling ._33 .ju .peo,
+  .ling ._44 .ju .peo,
+  .ling ._55 .ju .peo,
+  .ling ._66 .ju .peo {
+    text-align: left;
+    padding: 11% 9% 9%;
+  }
+  .ling ._11 .ju .peo .name,
+  .ling ._22 .ju .peo .name,
+  .ling ._33 .ju .peo .name,
+  .ling ._44 .ju .peo .name,
+  .ling ._55 .ju .peo .name,
+  .ling ._66 .ju .peo .name {
+    font-size: 15px;
+    font-weight: bolder;
+  }
+  .ling ._11 .ju .peo .under_name,
+  .ling ._22 .ju .peo .under_name,
+  .ling ._33 .ju .peo .under_name,
+  .ling ._44 .ju .peo .under_name,
+  .ling ._55 .ju .peo .under_name,
+  .ling ._66 .ju .peo .under_name {
+    border-bottom: #4136F2 2.5px solid;
+    margin: 7px 0;
+    width: 35%;
+  }
+  .ling ._11 .ju .peo .art_name,
+  .ling ._22 .ju .peo .art_name,
+  .ling ._33 .ju .peo .art_name,
+  .ling ._44 .ju .peo .art_name,
+  .ling ._55 .ju .peo .art_name,
+  .ling ._66 .ju .peo .art_name {
+    font-size: 13px;
+  }
+  .ling ._11 .ju_sh,
+  .ling ._22 .ju_sh,
+  .ling ._33 .ju_sh,
+  .ling ._44 .ju_sh,
+  .ling ._55 .ju_sh,
+  .ling ._66 .ju_sh {
+    width: 20px;
+    height: 117px;
+    position: absolute;
+    transform: translate(79px, 11px);
+    float: left;
+  }
+  .ling ._11:hover .ju_sh,
+  .ling ._22:hover .ju_sh,
+  .ling ._33:hover .ju_sh,
+  .ling ._44:hover .ju_sh,
+  .ling ._55:hover .ju_sh,
+  .ling ._66:hover .ju_sh {
+    float: left;
+    width: 19.6%;
+    border: #4136F2 1px solid;
+    transition: 2s;
+  }
+}
+@media screen and (max-width: 1300px) {
+  .ling {
+    margin: 0 10%;
+    height: 450px;
+  }
+  .ling ._11,
+  .ling ._22,
+  .ling ._33,
+  .ling ._44,
+  .ling ._55,
+  .ling ._66 {
+    width: 33.33333333%;
+    height: 200px;
+    float: left;
+  }
+  .ling ._11:hover .au,
+  .ling ._22:hover .au,
+  .ling ._33:hover .au,
+  .ling ._44:hover .au,
+  .ling ._55:hover .au,
+  .ling ._66:hover .au {
+    box-shadow: none;
+    border-bottom: #4136F2 solid 1.3px;
+    border-left: #4136F2 solid 1.3px;
+    transition: 1s;
+    float: left;
+  }
+  .ling ._11:hover .ju,
+  .ling ._22:hover .ju,
+  .ling ._33:hover .ju,
+  .ling ._44:hover .ju,
+  .ling ._55:hover .ju,
+  .ling ._66:hover .ju {
+    background-color: #FFFFFF;
+    float: left;
+  }
+  .ling ._11:hover .peo,
+  .ling ._22:hover .peo,
+  .ling ._33:hover .peo,
+  .ling ._44:hover .peo,
+  .ling ._55:hover .peo,
+  .ling ._66:hover .peo {
+    transform: translate(-40px, 0);
+    transition: 1s;
+    float: left;
+  }
+  .ling ._11 .num,
+  .ling ._22 .num,
+  .ling ._33 .num,
+  .ling ._44 .num,
+  .ling ._55 .num,
+  .ling ._66 .num {
+    font-weight: bold;
+    color: #4136F2;
+    font-size: 50px;
+    float: left;
+    transform: translate(65px, -87px);
+  }
+  .ling ._11 .au,
+  .ling ._22 .au,
+  .ling ._33 .au,
+  .ling ._44 .au,
+  .ling ._55 .au,
+  .ling ._66 .au {
+    width: 90px;
+    height: 90px;
+    transform: rotate(45deg) translate(43px, -6px);
+    float: left;
+    background-color: #FFFFFF;
+    box-shadow: 0 0 90px -26px #4136F2;
+    border-radius: 15px;
+  }
+  .ling ._11 .ju,
+  .ling ._22 .ju,
+  .ling ._33 .ju,
+  .ling ._44 .ju,
+  .ling ._55 .ju,
+  .ling ._66 .ju {
+    width: 65%;
+    height: 112.8px;
+    transform: translate(-7px, 13px);
+    float: left;
+    padding-left: 70px;
+  }
+  .ling ._11 .ju .peo,
+  .ling ._22 .ju .peo,
+  .ling ._33 .ju .peo,
+  .ling ._44 .ju .peo,
+  .ling ._55 .ju .peo,
+  .ling ._66 .ju .peo {
+    text-align: left;
+    padding: 1% 9% 9%;
+  }
+  .ling ._11 .ju .peo .name,
+  .ling ._22 .ju .peo .name,
+  .ling ._33 .ju .peo .name,
+  .ling ._44 .ju .peo .name,
+  .ling ._55 .ju .peo .name,
+  .ling ._66 .ju .peo .name {
+    font-size: 15px;
+    font-weight: bolder;
+  }
+  .ling ._11 .ju .peo .under_name,
+  .ling ._22 .ju .peo .under_name,
+  .ling ._33 .ju .peo .under_name,
+  .ling ._44 .ju .peo .under_name,
+  .ling ._55 .ju .peo .under_name,
+  .ling ._66 .ju .peo .under_name {
+    border-bottom: #4136F2 2.5px solid;
+    margin: 7px 0;
+    width: 35%;
+  }
+  .ling ._11 .ju .peo .art_name,
+  .ling ._22 .ju .peo .art_name,
+  .ling ._33 .ju .peo .art_name,
+  .ling ._44 .ju .peo .art_name,
+  .ling ._55 .ju .peo .art_name,
+  .ling ._66 .ju .peo .art_name {
+    font-size: 13px;
+  }
+  .ling ._11 .ju_sh,
+  .ling ._22 .ju_sh,
+  .ling ._33 .ju_sh,
+  .ling ._44 .ju_sh,
+  .ling ._55 .ju_sh,
+  .ling ._66 .ju_sh {
+    width: 20px;
+    height: 117px;
+    position: absolute;
+    transform: translate(79px, 11px);
+    float: left;
+  }
+  .ling ._11:hover .ju_sh,
+  .ling ._22:hover .ju_sh,
+  .ling ._33:hover .ju_sh,
+  .ling ._44:hover .ju_sh,
+  .ling ._55:hover .ju_sh,
+  .ling ._66:hover .ju_sh {
+    float: left;
+    width: 18%;
+    border: #4136F2 1px solid;
+    transition: 2s;
+  }
+}
+/*# sourceMappingURL=first.css.map */

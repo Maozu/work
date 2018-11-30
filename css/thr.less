@@ -1,0 +1,191 @@
+@dw: #F3F3F3;
+@sb: #4136F2;
+@ft: #333333;
+@gr: #717171;
+@wh: #FFFFFF;
+.dw {
+  background-color: @dw;
+}
+.picture {
+  background-image: url("../image/product/banner.png");
+}
+.box {
+  .hh {
+    width: 60%;
+    text-align: center;
+    margin: 0 20%;
+    letter-spacing: 7px;
+  }
+}
+.clear {
+  clear: both;
+}
+body {
+  .bur {
+    height: 1203px;
+    background-image: url("../image/product/_1bur.png");
+    background-size: cover;
+    color: #FFFFFF;
+    .vio {
+      .underline{
+        border-color: #FFFFFF;
+      }
+    }
+    .more {
+      border: @wh 2px solid;
+      a{
+        color: @wh;
+      }
+    }
+    //filter: blur(50px);
+    //border-top: 1px solid @gr;
+    .tututu {
+      display: flex;
+      justify-content: center;  /*水平居中*/
+      align-items: center;      /*垂直居中*/
+      .pic {
+        height: 570px;
+        width: 390px;
+        float: left;
+        background-color: #FFFFFF;
+        margin: 0 40px;
+        display: inline-block;
+        .peo{
+          color: black;
+          text-align: left;
+          padding: 9%;
+          .name {
+            font-size: 16px;
+            font-weight: bold;
+            padding: 6px;
+          }
+          .under_name {
+            border-bottom: @sb 1.5px solid;
+            //margin: 7px 0;
+            width: 35%;
+            padding: 6px;
+          }
+          .art_name{
+            font-size: 13px;
+            padding: 22px 6px;
+            line-height: 35px;
+          }
+        }
+      }
+    }
+
+  }
+  .jjj{
+    .tututu {
+      display: flex;
+      justify-content: center;  /*水平居中*/
+      align-items: center;      /*垂直居中*/
+      .pic {
+        height: 380px;
+        width: 230px;
+        float: left;
+        background-color: #FFFFFF;
+        margin: 0 40px;
+        display: inline-block;
+        .peo{
+          color: black;
+          text-align: center;
+          padding: 9%;
+          .name {
+            font-size: 16px;
+            font-weight: bold;
+            padding: 27px 6px 6px 6px;
+          }
+          .art_name{
+            text-align: left;
+            font-size: 13px;
+            padding: 22px 6px;
+            line-height: 35px;
+          }
+        }
+      }
+    }
+  }
+  .dw {
+    .tututu {
+      display: flex;
+      height: 390px;
+      justify-content: center;  /*水平居中*/
+      align-items: center;      /*垂直居中*/
+      .pic {
+        height: 390px;
+        width: 300px;
+        float: left;
+        background-color: #FFFFFF;
+        margin: 0 40px;
+        display: inline-block;
+        position: relative;
+        overflow: hidden;
+        .change {
+          position: absolute;
+          //min-width: 300px;
+          background-color: @sb;
+          color: @wh;
+          text-align: center;
+          padding: 9%;
+          top: 100%;
+          height: 100%;
+          //transition: 1s;
+          .name {
+            font-size: 16px;
+            font-weight: bold;
+            padding: 6px;
+          }
+          .under_name {
+            border-bottom: @sb 1.5px solid;
+            //margin: 7px 0;
+            width: 35%;
+            padding: 6px;
+          }
+          .art_name {
+            font-size: 13px;
+            padding: 22px 6px;
+            line-height: 35px;
+          }
+        }
+        //&:hover .peo{
+        //  display: none;
+        //  //transition: 1s;
+        //}
+        //&:hover img{
+        //  display: none;
+        //  //transition: 1s;
+        //}
+        &:hover .change{
+          top: 0;
+          //height: 390px;
+          //background-color: #d768ff;
+          transition: top 1s;
+        }
+
+        .peo{
+          color: black;
+          text-align: center;
+          padding: 9%;
+          transition: 5s;
+          .name {
+            font-size: 16px;
+            font-weight: bold;
+            padding: 6px;
+          }
+          .under_name {
+            border-bottom: @sb 1.5px solid;
+            //margin: 7px 0;
+            width: 35%;
+            padding: 6px;
+          }
+          .art_name{
+            font-size: 13px;
+            padding: 22px 6px;
+            line-height: 35px;
+          }
+        }
+      }
+    }
+  }
+}
